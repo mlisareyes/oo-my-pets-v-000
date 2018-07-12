@@ -20,8 +20,6 @@ class Owner
     binding.pry
   end
 
-  end
-
   def self.all
     @@all
   end
