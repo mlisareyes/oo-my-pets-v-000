@@ -37,7 +37,7 @@ class Owner
   end
 
   def feed_fish
-    fish.mood = "happy"
+    self.mood = "happy"
   end
 
   def sell_pets
