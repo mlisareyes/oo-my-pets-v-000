@@ -28,7 +28,7 @@ class Owner
   end
 
   def walk_dogs
-    pets[:dogs] == happy
+    pets[:dogs] == "happy"
   end
 
   def self.reset_all
