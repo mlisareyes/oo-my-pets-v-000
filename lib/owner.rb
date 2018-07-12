@@ -11,8 +11,6 @@ class Owner
     self.pets = {:fishes=>[], :cats=>[], :dogs =>[]}
   end
 
-  def species
-
   def self.reset_all
   end
 
