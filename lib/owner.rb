@@ -1,4 +1,4 @@
-require 'pry'
+
 
 class Owner
   attr_accessor :name, :pets
@@ -17,7 +17,7 @@ class Owner
   end
 
   def self.count
-    
+
   end
 
   def self.all
