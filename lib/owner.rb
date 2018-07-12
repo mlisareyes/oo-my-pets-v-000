@@ -17,6 +17,7 @@ class Owner
 
   def buy_fish(fish)
     pets[:fishes] << Fish.new
+    pets
   end
 
   def self.reset_all
