@@ -33,11 +33,11 @@ class Owner
   end
 
   def plays_with_cats
-    Cat.mood= "happy"
+    cat.mood = "happy"
   end
 
   def feed_fish
-    Fish.mood= "happy"
+    fish.mood= "happy"
   end
 
   def sell_pets
