@@ -11,16 +11,4 @@ class Owner
     @@all << self
     self.pets = {:fishes=>[], :cats=>[], :dogs =>[]}
   end
-
-  def self.reset_all
-    self.all
-  end
-
-  def self.count
-
-  end
-
-  def self.all
-
-  end
 end
