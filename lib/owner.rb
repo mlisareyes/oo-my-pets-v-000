@@ -41,6 +41,7 @@ class Owner
   end
 
   def sell_pets
+    self.pets.each {|type, pets|}
   end
 
   def list_pets
