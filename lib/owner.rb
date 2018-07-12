@@ -16,6 +16,8 @@ class Owner
   end
 
   def buy_fish(fish)
+    self.fish[:fishes.count]
+
 
   end
 
