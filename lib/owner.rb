@@ -17,6 +17,8 @@ class Owner
   end
 
   def self.count
+    self.each do |owner|
+    end
 
   end
 
