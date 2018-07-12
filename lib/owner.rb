@@ -27,6 +27,9 @@ class Owner
     pets[:dog] << Dog.new(name)
   end
 
+  def walk_dogs
+  end
+
   def self.reset_all
   end
 
