@@ -15,7 +15,7 @@ class Owner
     "I am a human."
   end
 
-  def buy_fish(fish)
+  def buy_fish(na,e)
     pets[:fishes] << Fish.new
     pets
   end
