@@ -6,16 +6,18 @@ class Owner
 
   def initialize(name)
     @name = name
+    @species = "human"
     @@all << self
     self.pets = {:fishes=>[], :cats=>[], :dogs =>[]}
   end
+
+  def species
 
   def self.reset_all
   end
 
   def self.count
   end
-
 
   def self.all
     @@all
