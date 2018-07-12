@@ -20,6 +20,6 @@ class Owner
   end
 
   def self.all
-
+    self.all.size
   end
 end
