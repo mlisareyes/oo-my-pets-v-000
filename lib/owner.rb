@@ -33,16 +33,16 @@ class Owner
   end
 
   def plays_with_cats
-    cat.mood = "happy"
+    cat.mood= "happy"
   end
 
   def feed_fish
-    fish.mood = "happy"
+    fish.mood= "happy"
   end
 
   def sell_pets
     pets.each {|species, pets|}
-    pets.mood = "nervous"
+    pets.mood= "nervous"
   end
 
   def list_pets
