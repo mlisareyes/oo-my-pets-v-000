@@ -23,6 +23,9 @@ class Owner
     pets[:cats] << Cat.new(name)
   end
 
+  def buy_dog(name)
+  end
+
   def self.reset_all
   end
 
