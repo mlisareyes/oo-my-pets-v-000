@@ -13,6 +13,7 @@ class Owner
 
   def say_species
     "I am human."
+  end
 
   def self.reset_all
   end
