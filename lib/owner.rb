@@ -11,6 +11,9 @@ class Owner
     self.pets = {:fishes=>[], :cats=>[], :dogs =>[]}
   end
 
+  def say_species
+    "I am human."
+
   def self.reset_all
   end
 
