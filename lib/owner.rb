@@ -37,7 +37,7 @@ class Owner
   end
 
   def sell_pets
-    ens
+  end
 
   def list_pets
     "I have 2 fish, 3 dog(s), and 1 cat(s)."
