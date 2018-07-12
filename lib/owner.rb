@@ -33,6 +33,9 @@ class Owner
   def plays_with_cats
   end
 
+  def feed_fish
+  end
+
   def list_pets
     "I have 2 fish, 3 dog(s), and 1 cat(s)."
   end
