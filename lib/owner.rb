@@ -17,10 +17,9 @@ class Owner
   end
 
   def self.count
-    binding.pry
   end
 
   def self.all
-    @@all.size
+    binding.pry
   end
 end
